@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITestSuite">
+    <test name="APIRegressionTest">
+        <classes>
+            <class name="org.example.CoinMapClient.CoinMapClientTest"/>
+
+            <!-- Add more test classes as needed -->
+        </classes>
+    </test>
+</suite>
